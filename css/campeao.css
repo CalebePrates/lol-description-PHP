@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+.mae{
+	width: 100%;
+	height: 100%;
+	background-color: #ddd;
+}
+
+.imagem-perfil{
+	width: 30%;
+	height: 80%;
+	background-color: #fff;
+	box-shadow: 1px 1px 3px 2px #999;
+	float: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.cabecalho-perfil{
+	width: 100%;
+	height: 40%;
+	padding-top: 10%;
+}
+
+.dados-perfil{
+	width: 100%;
+	height: 70%;
+	float: left;
+	padding: 2%;
+}
+
+.preco-rp{
+	width: 100%;
+	height: 20%;
+}
+
+.icon-rp{
+	height: 100%;
+	width: 20%;
+	padding: 2%;
+}
+
+.icon-rp img{
+	width: 70%;
+	height: 90%;
+}
+
+.span-preco{
+	color: #222;
+	font-size: 30px;
+}
+
+.preco-ip{
+	width: 100%;
+	height: 20%;
+}
+
+.posicao, .posicao-null{
+	width: 100%;
+	height: 20%;
+}

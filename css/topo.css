@@ -1,0 +1,160 @@
+ul{
+	list-style: none;
+}
+
+.icon-to-index{
+	width: 10%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+.icon-to-index a{
+	width: 100%;
+	height: 100%;
+}
+
+.icon-to-index a img{
+	width: 60%;
+	height: 100%;
+}
+
+.div-main{
+	position: relative;
+	float: left;
+	width: 80%;
+	height: 100%;
+}
+
+.options-itens{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 60%;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	height: 100%;
+}
+
+ul.topnav li {
+	float: left;
+	height: 100%;
+	width: 30%;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 100%;
+    font-size: 25px;
+}
+
+ul.topnav li a:hover{
+	background-color: #222;
+	color: #ddd;
+	cursor: pointer;
+	transition: background-color .5s;
+}
+
+.div-search{
+	float: left;
+	position: relative;
+	height: 100%;
+	width: 40%;
+}
+
+.search-champ{
+	float: right;
+	height: 50%;
+	width: 90%;
+	border: none;
+	border-bottom: .7px dotted #ccc;
+	margin-top: 3.3%;
+	background-color: transparent;
+	outline: none;
+	font-size: 20px;
+	color: #fff;
+	display: none;
+}
+
+.icon-lupa{
+	width: 10%;
+	height: 100%;
+	float: right;
+}
+
+.icon-lupa img{
+	width: 80%;
+	height: 50%;
+	margin-top: 33%;
+	float: left;
+	cursor: pointer;
+}
+
+.result-champs{
+	width: 100%;
+	height: auto;
+	max-height: 700%;
+	float: left;
+	box-shadow: 1px 1px 3px 1px #000;
+	display: none;
+	overflow-y: auto;
+}
+
+.result-champs a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.result-champs a:hover {
+    background-color: #ccc;
+}
+
+.result-champs a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.result-champs a img{
+	width: 10%;
+	height: 80%;
+	margin-left: 5%;
+	border-radius: 50%;
+	margin-top: 2%;
+}
+
+.result-champs a span{
+	margin-top: -5%;
+}
+
+.ajuda{
+	float: left;
+	height: 100%;
+	width: 10%;
+}
+
+.facebook-login{
+	height: 75%;
+	width: 35%;
+	border: none;
+	margin-top: 5%;
+	float: right;
+	border-radius: 50%;
+	background-image: url("../icones/facebook.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: transparent;
+	outline: none;
+	cursor: pointer;
+}

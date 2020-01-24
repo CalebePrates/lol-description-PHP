@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+.itens{
+  width: 300px;
+  height: 320px;
+  float: left;
+  margin: 5px;
+  background-color: rgba(0,0,0.2);
+  margin: 10px;
+}
+
+.img-item{
+  width: 300px;
+  height: 200px;
+  float: left;
+  position: relative;
+}
+
+.image-item{
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.name-item{
+  color: white;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.price-item{
+  color: white;
+  float: left;
+  width: 100%;
+  height: 50px;
+}
+
+.conteudo{
+  color: white;
+  float: left;
+  width: 100%;
+}

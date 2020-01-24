@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+.topo{
+	width: 100%;
+	height: 10%;
+	background-color: #000;
+	box-shadow: 1px 1px 4px 3px #111;
+	float: left;
+	position: fixed;
+	z-index: 99999999;
+}
+
+.loader-divs{
+	top: 10%;
+	position: relative;
+	float: left;
+	width: 100%;
+	height: auto;
+	padding-bottom: 1%;
+	padding: .5%;
+	background-color: #eee;
+	padding-right: 0;
+}
+
+.detalhes-skins{
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: none;
+	background-color: rgba(0,0,0,.4);
+	top: 10%;
+}
+
+.img-detail-skin{
+	width: 30%;
+	height: 80%;
+	margin-left: 2%;
+	margin-top: 2%;
+	float: left;
+	box-shadow: 1px 1px 2px 1px #666;
+}
+
+.img-skin-show{
+	width: 100%;
+	height: 100%;
+}
+
+.price-detail-skin{
+	float: left;
+	width: 50%;
+	height: 20%;
+	margin-top: 10%;
+	margin-left: 1%;
+	padding-top: 2%;
+}
+
+.price-detail-skin p{
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.name-detail-skin{
+	width: 50%;
+	height: 20%;
+	float: left;
+	margin-top: 3%;
+	margin-left: 1%;
+}
+
+.name-detail-skin p{
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.rp-icon{
+	width: 10%;
+	height: 60%;
+}
